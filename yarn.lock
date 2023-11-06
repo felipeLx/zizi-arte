@@ -9414,7 +9414,7 @@ strapi-plugin-sitemap@^3.0.6:
 
 "strapi-provider-upload-supabase@github:arkivedao/strapi-provider-upload-supabase":
   version "1.0.0"
-  resolved "git+ssh://git@github.com/arkivedao/strapi-provider-upload-supabase.git#e4023c84f178d4c16fcca87a6108e81e19572f2f"
+  resolved "https://github.com/arkivedao/strapi-provider-upload-supabase.git"
   dependencies:
     "@supabase/supabase-js" "1.35.5"
 
