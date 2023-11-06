@@ -19,6 +19,7 @@
     "@strapi/provider-upload-cloudinary": "^4.15.0",
     "@strapi/strapi": "4.15.0",
     "better-sqlite3": "8.6.0",
+    "pg": "^8.11.3",
     "strapi-plugin-multi-select": "^1.2.2",
     "strapi-plugin-preview-button": "^2.2.0",
     "strapi-plugin-schemas-to-ts": "^1.1.10",
