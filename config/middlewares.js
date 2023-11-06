@@ -11,14 +11,9 @@ module.exports = ({ env }) => [
             "'self'",
             'data:',
             'blob:',
-            'res.cloudinary.com', // cloudinary images
-            'lh3.googleusercontent.com', // google avatars
-            'platform-lookaside.fbsbx.com', // facebook avatars
-            'dl.airtable.com', // strapi marketplace,
-            "market-assets.strapi.io",
-            env('SUPABASE_API_URL'),
+            'res.cloudinary.com',
           ],
-          'media-src': ["'self'", 'data:', 'blob:', env('SUPABASE_API_URL')],
+          'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
           upgradeInsecureRequests: null,
         },
       },

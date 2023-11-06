@@ -22,7 +22,6 @@
     "strapi-plugin-preview-button": "^2.2.0",
     "strapi-plugin-schemas-to-ts": "^1.1.10",
     "strapi-plugin-sitemap": "^3.0.6",
-    "strapi-provider-upload-supabase": "github:arkivedao/strapi-provider-upload-supabase",
     "strapi-stripe": "^3.4.1"
   },
   "author": {
